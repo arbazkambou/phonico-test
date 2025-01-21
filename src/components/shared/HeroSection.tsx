@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "./HeroSection.module.css";
 import Link from "next/link";
@@ -11,7 +11,7 @@ interface HeroSectionPropsType {
     title: string;
     href: string;
   };
-  imgSrc: string;
+  imgSrc: StaticImageData;
 }
 function HeroSection({ heroData }: { heroData: HeroSectionPropsType }) {
   return (

@@ -50,7 +50,7 @@ function HeroSection({ heroData }: { heroData: HeroSectionPropsType }) {
             </div>
           </Col>
           <Col xl={6} className="d-flex justify-content-end">
-            {/* <div className={`position-relative ${styles.heroImg} ms-0 ms-md-5`}>
+            <div className={`position-relative ${styles.heroImg} ms-0 ms-md-5`}>
               <Image
                 src={heroData.imgSrc}
                 fill
@@ -58,11 +58,11 @@ function HeroSection({ heroData }: { heroData: HeroSectionPropsType }) {
                 alt="Phonico is here to connect you to the world"
                 loading="eager"
                 priority={true}
-                quality={90}
+                quality={85}
               />
-            </div> */}
+            </div>
 
-            <div className={`${styles.heroImg}`}></div>
+            {/* <div className={`${styles.heroImg}`}></div> */}
           </Col>
         </Row>
       </Container>

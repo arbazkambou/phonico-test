@@ -9,6 +9,7 @@ import HeroSection from "@/components/shared/HeroSection";
 import PlansSection from "@/components/shared/PlansSection";
 import SearchNetworkCoverage from "@/components/shared/SearchNetworkCoverage";
 import { Metadata } from "next";
+import femaleHero from "@/app/_assets/images/femaleHero.png";
 
 export const metadata: Metadata = {
   title: "Phonico: Prepaid eSIM USA | eSIM Plans with Free Calls & Texts",
@@ -33,7 +34,7 @@ export default function Home() {
       title: "Find your Plan",
       href: "/plans",
     },
-    imgSrc: "/images/femaleHero.png",
+    imgSrc: femaleHero,
   };
 
   const benefitsData = {

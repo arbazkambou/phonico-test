@@ -58,6 +58,7 @@ function HeroSection({ heroData }: { heroData: HeroSectionPropsType }) {
                 alt="Phonico is here to connect you to the world"
                 loading="eager"
                 priority={true}
+                placeholder="blur"
                 quality={85}
               />
             </div>

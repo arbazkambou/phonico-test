@@ -1,0 +1,52 @@
+{
+  "name": "phonico-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "expose": "next dev -H 192.168.0.110 -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@next/third-parties": "^15.0.1",
+    "@tanstack/react-query": "^5.62.11",
+    "@tanstack/react-query-devtools": "^5.62.11",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "date-fns": "^4.1.0",
+    "firebase": "^11.1.0",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.454.0",
+    "next": "14.2.15",
+    "nextjs-toploader": "^3.7.15",
+    "normalize.css": "^8.0.1",
+    "react": "^18",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18",
+    "react-fontawesome": "^1.7.1",
+    "react-gauge-component": "^1.2.61",
+    "react-hook-form": "^7.53.1",
+    "react-hot-toast": "^2.4.1",
+    "react-loading-skeleton": "^3.5.0",
+    "react-qr-code": "^2.0.15",
+    "react-spinners": "^0.15.0",
+    "sharp": "^0.33.5",
+    "swiper": "^11.1.12"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "typescript": "^5"
+  }
+}

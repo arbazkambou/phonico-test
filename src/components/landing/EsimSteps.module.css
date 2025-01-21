@@ -1,0 +1,44 @@
+.section {
+  height: 620px;
+  background-image: url("/images/stepsBg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.steps {
+  max-width: 340px;
+}
+
+.step1 {
+  position: absolute;
+  bottom: 0px;
+  left: 177px;
+}
+
+.step2 {
+  position: absolute;
+  top: 370px;
+  left: 692px;
+}
+.step3 {
+  position: absolute;
+  top: 123px;
+  right: -27px;
+}
+
+@media screen and (max-width: 1400px) {
+  .section {
+    height: 100%;
+    background-image: none;
+  }
+  .step1 {
+    position: static;
+  }
+  .step2 {
+    position: static;
+  }
+  .step3 {
+    position: static;
+  }
+}

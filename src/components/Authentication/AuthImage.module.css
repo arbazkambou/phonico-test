@@ -1,0 +1,8 @@
+.imgContainer {
+  height: 750px; /* or the desired height */
+  background: linear-gradient(180deg, rgba(70, 95, 241, 0.37) 0%, #465ff1 100%),
+    url("/images/authImg.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 90px 0px;
+}

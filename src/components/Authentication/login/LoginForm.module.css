@@ -1,0 +1,9 @@
+.link {
+  color: #1f63d9;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: 3px;
+  text-underline-position: from-font;
+}

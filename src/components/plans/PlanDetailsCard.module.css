@@ -1,0 +1,67 @@
+.planDetail {
+  background: #f5fcff;
+  box-shadow: 0px 2px 8.9px 0px rgba(148, 148, 148, 0.25);
+  padding: 60px 100px;
+}
+
+.priceContainer {
+  border-radius: 6px;
+  background: #5cbfea;
+  box-shadow: 0px 2px 27.6px 0px rgba(135, 135, 135, 0.25);
+}
+
+.planDuration {
+  background: #fef7f2;
+}
+
+.durationCard {
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.durationCard:hover {
+  cursor: pointer;
+  border: 2px solid var(--color-primary);
+}
+
+.durationCardActive {
+  border: 2px solid var(--color-primary);
+}
+
+.durationCardInActive {
+  border: 1px solid #b4b4b4;
+}
+
+.cardBadge {
+  border-radius: 6px;
+  background: var(--color-primary);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
+  font-size: 8px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.whatsIncluded {
+  border-radius: 8px;
+  border: 1px solid #e7e9ed;
+  background: #fff;
+}
+
+.cartSummary {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(156, 156, 156, 0.25);
+}
+
+.cartSummary hr {
+  height: 1px;
+  background-color: #cacaca;
+  margin: 6px 0px 0px 0px;
+}
+
+@media screen and (max-width: 570px) {
+  .planDetail {
+    padding: 40px;
+  }
+}

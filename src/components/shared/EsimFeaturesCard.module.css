@@ -1,0 +1,39 @@
+.section {
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  margin-top: -116px;
+}
+
+.featureCard {
+  padding: 14px 20px;
+  background-color: #f1f1f1;
+}
+
+.margin52 {
+  margin-top: 52px !important;
+}
+
+@media (max-width: 1200px) {
+  .section {
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    margin-top: -210px;
+  }
+}
+
+@media (max-width: 551px) {
+  .section {
+    margin-top: -33px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section {
+    margin-top: -80px;
+  }
+}

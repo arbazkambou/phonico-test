@@ -1,0 +1,18 @@
+.section {
+  background-image: url("/images/wavyBlobRight.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgWrapper {
+  position: relative;
+  height: 420px;
+  width: 76%;
+}
+
+@media screen and (max-width: 750px) {
+  .imgWrapper {
+    width: 100%;
+  }
+}

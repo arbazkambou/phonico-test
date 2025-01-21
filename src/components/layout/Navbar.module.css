@@ -1,0 +1,52 @@
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav.hidden {
+  transform: translateY(-100%);
+}
+
+.nav.visible {
+  transform: translateY(0);
+  box-shadow: 0px 2px 45px 0px rgba(195, 195, 195, 0.25) !important;
+}
+
+.navLinks {
+  color: var(--color-text-primary);
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navLinks::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 6px;
+  border-radius: 8px;
+  background-color: var(--color-primary);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: left;
+}
+
+.navLinks:hover::after {
+  transform: scaleX(1);
+}
+
+.navLinks.active {
+  color: var(--color-primary);
+}
+
+.navLinks.active::after {
+  transform: scaleX(1);
+}

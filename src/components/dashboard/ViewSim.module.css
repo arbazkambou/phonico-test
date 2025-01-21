@@ -1,0 +1,5 @@
+.esimCard {
+  border-radius: 12px;
+  border: 2px solid #dedede;
+  background: var(--background-color);
+}

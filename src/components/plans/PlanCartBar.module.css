@@ -1,0 +1,40 @@
+.planCartBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 30;
+}
+
+.planDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.clearButton,
+.buyButton {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.clearButton {
+  background-color: #dc3545;
+}
+
+.clearButton:hover,
+.buyButton:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,6 @@
+.section {
+  border-radius: 12px;
+  background: var(--background-primary);
+  max-width: 100%;
+  /* min-height: 500px; */
+}

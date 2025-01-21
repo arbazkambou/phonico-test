@@ -1,0 +1,16 @@
+.reviewCard {
+  background: #fff;
+  box-shadow: 0px 42.444px 61.308px 0px rgba(0, 0, 0, 0.08);
+  min-height: 310px;
+}
+.reviewCard:hover {
+  cursor: grab;
+}
+
+@media screen and (max-width: 500px) {
+  .reviewCard {
+    min-height: 250px;
+    margin: 0px 10px;
+    border-radius: 7px;
+  }
+}

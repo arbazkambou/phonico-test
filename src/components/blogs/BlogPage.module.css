@@ -1,0 +1,56 @@
+.search form input {
+  background: white;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 2px solid #fab094;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.search form input:focus {
+  outline: none;
+  border-bottom: 2px solid #ef5e7f;
+}
+
+.search form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #fab094;
+}
+
+.search form button:hover {
+  background: #ef5e7f;
+}
+
+.box a {
+  text-decoration: none;
+  color: black;
+}
+
+.box a:hover {
+  color: #fab094;
+}
+
+.box {
+  border: 1px solid #fab094;
+}
+
+.box h3 {
+  background-color: #fab094;
+  padding: 5px 10px;
+}
+
+.headSection {
+  background: #fef7f2;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.blogsCategory {
+  border-radius: 21px;
+  border: 1px solid #858585;
+}
+
+.blogsCategory a:hover {
+  color: var(--color-primary);
+}

@@ -1,0 +1,15 @@
+.esimCard {
+  border-radius: 16px;
+  border: 2px solid var(--background-secondary);
+  box-shadow: 0px 2px 45px 0px rgba(125, 125, 125, 0.25);
+  background-color: var(--background-color);
+}
+
+.cardHeader {
+  border-radius: 16px 16px 0px 0px;
+  background-color: var(--background-tertiary);
+}
+
+.esimCard:hover {
+  border: 2px solid var(--color-primary);
+}

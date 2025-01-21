@@ -1,0 +1,36 @@
+.contactForm {
+  background: #f5fcff;
+  box-shadow: 0px 2px 8.9px 0px rgba(148, 148, 148, 0.25);
+}
+
+.checkoutForm {
+  background: #fef7f2;
+}
+
+.logoContainer {
+  position: relative;
+  width: 145px;
+  height: 94.077px;
+  background: #fff;
+}
+
+.autoRenew {
+  border-radius: 6px;
+  border: 1px solid #b4b4b4;
+  background: var(--background, #fafafa);
+}
+
+.cartSummary {
+  border-radius: 6px;
+  border: 1px solid #b4b4b4;
+  background: var(--background, #fafafa);
+}
+
+.cartSummary hr {
+  height: 1px;
+  background: #cacaca;
+  margin: 6px 0px 0px 0px;
+}
+.spinnerContainer {
+  height: 80vh;
+}

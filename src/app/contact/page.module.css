@@ -1,0 +1,78 @@
+.headSection {
+  background: #fef7f2;
+  padding: 96px;
+}
+
+.imgWrapper {
+  position: relative;
+  height: 720px;
+}
+
+.label {
+  color: #344054;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input {
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #667085;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  outline: none;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 20px 0 #f5ece6;
+}
+
+.headSection p {
+  color: #344054;
+}
+
+.checkBox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.checkBox:checked {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.checkBox:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .imgWrapper {
+    height: 500px;
+  }
+
+  .imgWrapper > img {
+    object-fit: cover;
+  }
+  .headSection {
+    padding: 10px 30px;
+  }
+}

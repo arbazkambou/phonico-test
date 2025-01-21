@@ -1,0 +1,53 @@
+.customOffcanvas {
+  position: fixed !important;
+  top: 90px !important;
+  right: 100px !important;
+  height: calc(95% - 90px) !important;
+  z-index: 1040 !important;
+  min-width: 410px !important;
+  border-radius: 22px;
+  background: #fff !important;
+  overflow: hidden;
+}
+
+.customBackdrop {
+  position: fixed !important;
+  top: 88px !important;
+  height: calc(100% - 90px) !important;
+  width: 100% !important;
+
+  z-index: 1039 !important; /* Below the Offcanvas */
+}
+
+.cartHeader {
+  border-radius: 22px 22px 0px 0px;
+  background: #ffc9be;
+}
+
+.cartSummary {
+  border-radius: 12px;
+  background: #f8f6f0;
+}
+
+.cartQuantity {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  top: -10px;
+  right: -7px;
+  color: white;
+  height: 18px;
+  width: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .customOffcanvas {
+    min-width: 100% !important;
+    right: 0px !important;
+    border-radius: 0px;
+    height: calc(80% - 90px) !important;
+  }
+  .cartHeader {
+    border-radius: 0px;
+  }
+}

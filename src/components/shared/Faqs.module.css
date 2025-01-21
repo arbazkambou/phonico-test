@@ -1,0 +1,46 @@
+.section {
+  background: #f9f6f4;
+}
+
+.accordion {
+  border-radius: 4px 4px 8px 8px !important;
+  background: #fff !important;
+  border: none !important;
+}
+
+.accordionHeaderActice {
+  background: #fff !important;
+  border-bottom: 1.5px solid #e5e5e5 !important;
+}
+.accordionHeaderInActive {
+  background: #fff !important;
+  border-bottom: none !important;
+}
+
+.accordionButton {
+  border: none;
+  background: transparent;
+}
+
+.accordionActive {
+  -webkit-text-stroke: 1px #ee5e7f;
+  color: transparent;
+  display: inline-block;
+}
+
+.accordionInActive {
+  -webkit-text-stroke: 1px #c7c7c7;
+  color: transparent;
+  display: inline-block;
+}
+
+.verticalBarActive {
+  width: 1px;
+  height: 30px;
+  background: #ee5e7f;
+}
+.verticalBarInActive {
+  width: 1px;
+  height: 30px;
+  background: #0c3a53;
+}

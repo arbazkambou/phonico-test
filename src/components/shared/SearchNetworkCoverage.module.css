@@ -1,0 +1,76 @@
+.section {
+  border-radius: 40px;
+  background: #fef7f2;
+  position: relative;
+}
+
+.section input {
+  border-radius: 8px;
+  border: 1px solid #e7e9ed;
+  background: #fff;
+  outline: none;
+  width: 100%;
+  max-width: 386px;
+  height: 50px;
+  flex-shrink: 0;
+  color: #404040;
+  letter-spacing: -0.2px;
+}
+
+/* .section::before {
+  content: "";
+  background-image: url("/images/leftStar.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: 214px;
+  width: 214px;
+  pointer-events: none;
+  transition: width 0.5s ease;
+  z-index: -2;
+  opacity: 0.5;
+}
+.section::after {
+  content: "";
+  background-image: url("/images/rightStar.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  height: 214px;
+  width: 107px;
+  pointer-events: none;
+  transition: width 0.5s ease;
+  z-index: -2;
+  opacity: 0.5;
+} */
+
+.gradientBox {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  transform: rotate(-360deg);
+  top: -140px;
+  right: 78px;
+  opacity: 0.7;
+  background-image: url("/images/pinkGradientBox.svg");
+  filter: blur(13.39952564239502px);
+  z-index: -1;
+}
+
+@media (max-width: 1400px) {
+  .section::after {
+    display: none;
+  }
+
+  .section::before {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .gradientBox {
+    right: 20px;
+  }
+}

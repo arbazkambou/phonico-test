@@ -1,0 +1,42 @@
+.nav {
+  position: sticky;
+  z-index: 10;
+}
+
+.navLinks {
+  color: var(--color-text-primary);
+  font-size: 1rem;
+  font-family: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navLinks::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 6px;
+  border-radius: 8px;
+  background-color: var(--color-primary);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: left;
+}
+
+.navLinks:hover::after {
+  transform: scaleX(1);
+}
+
+.navLinks:hover::after {
+  transform: scaleX(1);
+}
+
+.navLinks.active {
+  color: var(--color-primary); /* Optional: Highlight active link color */
+}
+
+.navLinks.active::after {
+  transform: scaleX(1); /* Ensure underline is fully visible */
+}

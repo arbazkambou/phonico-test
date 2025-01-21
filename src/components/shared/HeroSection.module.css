@@ -1,0 +1,22 @@
+.heroImg {
+  height: 631px;
+  width: 100%;
+  margin-top: 30px;
+  background-image: url("/images/femaleHero.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.line {
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 550px) {
+  .heroImg {
+    height: 350px;
+    margin-top: 0px;
+  }
+  .line {
+    margin-top: -10px;
+  }
+}
